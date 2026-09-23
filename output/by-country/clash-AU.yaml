@@ -48,13 +48,13 @@ proxies:
     public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
     short-id: d725f0dd8cce210f
   servername: www.cloudflare.com
-  client-fingerprint: safari
+  client-fingerprint: ios
 - name: 🇦🇺 澳大利亚 (Australia) 05 - xiaohe
   server: au1.gsafevpnapi.com
   port: 20270
   udp: true
   type: vless
-  uuid: 6eef3a79-22bc-4086-b5e6-95e07db73016
+  uuid: 8f2774ba-73fe-404d-a01b-7c01812ff75b
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
