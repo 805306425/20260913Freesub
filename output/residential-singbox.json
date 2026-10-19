@@ -12,32 +12,18 @@
       "password": "qwerREWQ@@"
     },
     {
-      "type": "trojan",
-      "tag": "🇺🇸 美国 (United States) 02 (家宽) R46 - xiaohe",
-      "server": "4c2d5151.266nets.com",
-      "server_port": 12031,
-      "password": "bad06c3525a6eaee1757b34776b83892",
-      "tls": {
-        "enabled": true,
-        "server_name": "ixigua.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
-        "🇺🇸 美国 (United States) 02 (家宽) R46 - xiaohe"
+        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
-        "🇺🇸 美国 (United States) 02 (家宽) R46 - xiaohe"
+        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
