@@ -13,6 +13,8 @@ proxies:
   network: ws
   ws-opts:
     path: /vless
+    headers:
+      Host: 13.140.56.100
 - name: 🇮🇳 印度 (India) 02 - xiaohe
   server: in.tronsg.com
   port: 443
@@ -33,7 +35,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: in-152.67.8.205-0204
+      Host: 152.67.8.205
 proxy-groups:
 - name: PROXIES
   type: select
