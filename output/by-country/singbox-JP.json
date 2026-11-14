@@ -14,6 +14,18 @@
     {
       "type": "hysteria2",
       "tag": "🇯🇵 日本 (Japan) 02 - xiaohe",
+      "server": "8.211.175.236",
+      "server_port": 8443,
+      "password": "u63SxILNwtrQZ7Y1ZrFaZfsA",
+      "tls": {
+        "enabled": true,
+        "server_name": "8.211.175.236",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇯🇵 日本 (Japan) 03 - xiaohe",
       "server": "138.3.208.26",
       "server_port": 50160,
       "password": "184cdec28da5a09450803c8debcd2cc9",
@@ -25,14 +37,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇯🇵 日本 (Japan) 03 - xiaohe",
-      "server": "84.247.155.196",
-      "server_port": 80,
-      "method": "aes-256-gcm",
-      "password": "3eOFeNssde7PYYMv"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "🇯🇵 日本 (Japan) 04 - xiaohe",
       "server": "84.247.155.196",
       "server_port": 443,
@@ -40,20 +44,8 @@
       "password": "3eOFeNssde7PYYMv"
     },
     {
-      "type": "hysteria2",
-      "tag": "🇯🇵 日本 (Japan) 05 - xiaohe",
-      "server": "8.211.175.236",
-      "server_port": 8443,
-      "password": "u63SxILNwtrQZ7Y1ZrFaZfsA",
-      "tls": {
-        "enabled": true,
-        "server_name": "8.211.175.236",
-        "insecure": true
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 06 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 05 - xiaohe",
       "server": "13.140.248.125",
       "server_port": 443,
       "uuid": "4f82d72b-9644-c39a-ac6b-abbf15a862aa",
@@ -73,6 +65,14 @@
           "Host": "xray-p1vi234h-lunar-forest-6.cloady.io"
         }
       }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇯🇵 日本 (Japan) 06 - xiaohe",
+      "server": "84.247.155.196",
+      "server_port": 80,
+      "method": "aes-256-gcm",
+      "password": "3eOFeNssde7PYYMv"
     },
     {
       "type": "selector",
