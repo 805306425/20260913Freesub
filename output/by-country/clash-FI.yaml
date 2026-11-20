@@ -16,7 +16,7 @@ proxies:
     headers:
       Host: 45.144.234.157
 - name: 🇫🇮 芬兰 (Finland) 02 - xiaohe
-  server: 198.202.24.142
+  server: 162.159.160.117
   port: 2083
   udp: true
   type: vless
